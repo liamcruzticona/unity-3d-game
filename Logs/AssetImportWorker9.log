@@ -1,27 +1,27 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.0/staging' branch; Version is '6000.0.75f1 (26349cd2a5c8) revision 2503836'; Using compiler version '193933523'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Xye" at "2026-05-18T00:56:46.7182556Z"
-OS: 'Windows 11  (10.0.26200) Professional' Language: 'es' Physical Memory: 32609 MB
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'es' Physical Memory: 15741 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-willi" at "2026-05-23T20:53:48.7910369Z"
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-18T00:56:46Z
+Date: 2026-05-23T20:53:48Z
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.0.75f1-x86_64\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.0.75f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker9
 -projectPath
-D:/GAME/unity-3d-game-main
+C:/Users/willi/unity-3d-game
 -logFile
 Logs/AssetImportWorker9.log
 -srvPort
-54785
+57812
 -licensingIpc
-LicenseClient-Xye
+LicenseClient-willi
 -job-worker-count
 5
 -background-job-worker-count
@@ -30,8 +30,8 @@ LicenseClient-Xye
 1
 -name
 AssetImport
-Successfully changed project path to: D:/GAME/unity-3d-game-main
-D:/GAME/unity-3d-game-main
+Successfully changed project path to: C:/Users/willi/unity-3d-game
+C:/Users/willi/unity-3d-game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -67,12 +67,14 @@ D:/GAME/unity-3d-game-main
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [46924]  Target information:
+Player connection [14572]  Target information:
 
-Player connection [46924]  * "[IP] 192.168.88.253 [Port] 0 [Flags] 2 [Guid] 933291433 [EditorId] 933291433 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V78L8CD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [14572]  * "[IP] 192.168.8.105 [Port] 0 [Flags] 2 [Guid] 766430044 [EditorId] 766430044 [Version] 1048832 [Id] WindowsEditor(7,YFsWILLIE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [46924] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [46924] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14572]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 766430044 [EditorId] 766430044 [Version] 1048832 [Id] WindowsEditor(7,YFsWILLIE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14572] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14572] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,99 +86,96 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.86 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 8.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.75f1 (26349cd2a5c8)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.75f1-x86_64/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/GAME/unity-3d-game-main/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.75f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/willi/unity-3d-game/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
     Vendor:   NVIDIA
-    VRAM:     7957 MB
-    Driver:   32.0.15.7270
+    VRAM:     3937 MB
+    Driver:   32.0.15.6070
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.75f1-x86_64/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.75f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.75f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.75f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.75f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.75f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.75f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002112 seconds.
-- Loaded All Assemblies, in  0.357 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.75f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006177 seconds.
+- Loaded All Assemblies, in  0.936 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.353 seconds
-Domain Reload Profiling: 709ms
-	BeginReloadAssembly (119ms)
+- Finished resetting the current domain, in  0.907 seconds
+Domain Reload Profiling: 1838ms
+	BeginReloadAssembly (306ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (146ms)
-		LoadAssemblies (116ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (124ms)
+	LoadAllAssembliesAndSetupDomain (376ms)
+		LoadAssemblies (299ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (143ms)
-			TypeCache.Refresh (141ms)
-				TypeCache.ScanAssembly (129ms)
+		AnalyzeDomain (368ms)
+			TypeCache.Refresh (365ms)
+				TypeCache.ScanAssembly (341ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (353ms)
+	FinalizeReload (908ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (306ms)
+		SetupLoadedEditorAssemblies (799ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (158ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (140ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              4b4455a262704008b2af2ac050096073
-  Correlation Id:          1c2ef1c9d372783fd922502548db3f38
-  External correlation Id: 169304074357893926
-  Machine Id:              qtABcesyQj3LrBKQy76MQplaB4w=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Xye" (connect: 0.00s, validation: 0.00s, handshake: 1.32s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Xye-notifications" at "2026-05-18T00:56:48.0442333Z"
-[Licensing::Module] Licensing Background thread has ended after 1.33s
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              8b533b5ec3bd4c98a429cbcc2d61cdfb
+  Correlation Id:          b80b934675b07e9eb59d65f701d3b88b
+  External correlation Id: 3133870629154369125
+  Machine Id:              +nUPSLEMlrh0oZRQtrtuOLL31hw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-willi" (connect: 0.00s, validation: 0.00s, handshake: 5.31s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-willi-notifications" at "2026-05-23T20:53:54.1058846Z"
+[Licensing::Module] Licensing Background thread has ended after 5.32s
+[Licensing::Module] Licensing is initialized (took 1.46s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: F4-78NB-9DWH-DPB6-K9N7-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 4673853360262-UnityPersXXXX
+  Id: 4674184879457-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.675 seconds
+- Loaded All Assemblies, in  3.238 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.05 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -188,59 +187,122 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.14 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.76 ms, found 4 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.626 seconds
-Domain Reload Profiling: 1300ms
-	BeginReloadAssembly (156ms)
+- Finished resetting the current domain, in  1.510 seconds
+Domain Reload Profiling: 4740ms
+	BeginReloadAssembly (1817ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (444ms)
-		LoadAssemblies (289ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (90ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (1193ms)
+		LoadAssemblies (791ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (241ms)
-			TypeCache.Refresh (169ms)
-				TypeCache.ScanAssembly (157ms)
-			BuildScriptInfoCaches (57ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (627ms)
+		AnalyzeDomain (611ms)
+			TypeCache.Refresh (430ms)
+				TypeCache.ScanAssembly (401ms)
+			BuildScriptInfoCaches (147ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1511ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (466ms)
+		SetupLoadedEditorAssemblies (1084ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (322ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (270ms)
+			ProcessInitializeOnLoadAttributes (698ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.92 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6749 unused Assets / (4.8 MB). Loaded Objects now: 7432.
-Memory consumption went from 133.6 MB to 128.8 MB.
-Total: 9.528100 ms (FindLiveObjects: 0.668000 ms CreateObjectMapping: 0.760000 ms MarkObjects: 5.308600 ms  DeleteObjects: 2.788000 ms)
+Unloading 6786 unused Assets / (4.7 MB). Loaded Objects now: 7483.
+Memory consumption went from 132.7 MB to 128.0 MB.
+Total: 11.265900 ms (FindLiveObjects: 0.887700 ms CreateObjectMapping: 1.535900 ms MarkObjects: 5.814400 ms  DeleteObjects: 3.024600 ms)
 
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.536 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.97 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.362 seconds
+Domain Reload Profiling: 2895ms
+	BeginReloadAssembly (453ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (98ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (886ms)
+		LoadAssemblies (759ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (355ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (317ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1363ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1061ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (230ms)
+			ProcessInitializeOnLoadAttributes (675ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (52ms)
+Refreshing native plugins compatible for Editor in 4.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6784 unused Assets / (5.1 MB). Loaded Objects now: 7499.
+Memory consumption went from 144.0 MB to 139.0 MB.
+Total: 18.277200 ms (FindLiveObjects: 1.219200 ms CreateObjectMapping: 1.718000 ms MarkObjects: 9.383900 ms  DeleteObjects: 5.951600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.80 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.12 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6737 unused Assets / (7.6 MB). Loaded Objects now: 7433.
-Memory consumption went from 131.4 MB to 123.8 MB.
-Total: 33.379600 ms (FindLiveObjects: 0.997400 ms CreateObjectMapping: 0.944100 ms MarkObjects: 19.842200 ms  DeleteObjects: 11.594200 ms)
+Unloading 6774 unused Assets / (5.3 MB). Loaded Objects now: 7500.
+Memory consumption went from 144.2 MB to 138.9 MB.
+Total: 20.832700 ms (FindLiveObjects: 1.638900 ms CreateObjectMapping: 1.823600 ms MarkObjects: 11.184500 ms  DeleteObjects: 6.182500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -248,11 +310,12 @@ Received Prepare
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.822 seconds
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.155 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 13.32 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -265,736 +328,140 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.878 seconds
-Domain Reload Profiling: 1701ms
-	BeginReloadAssembly (230ms)
+- Finished resetting the current domain, in  1.602 seconds
+Domain Reload Profiling: 3717ms
+	BeginReloadAssembly (553ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (503ms)
-		LoadAssemblies (370ms)
+		CreateAndSetChildDomain (177ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (1423ms)
+		LoadAssemblies (1114ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (236ms)
-			TypeCache.Refresh (13ms)
+		AnalyzeDomain (556ms)
+			TypeCache.Refresh (50ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (454ms)
+			ResolveRequiredComponents (46ms)
+	FinalizeReload (1603ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1196ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (395ms)
+			ProcessInitializeOnLoadAttributes (684ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 4.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6785 unused Assets / (5.2 MB). Loaded Objects now: 7503.
+Memory consumption went from 144.1 MB to 138.8 MB.
+Total: 17.068500 ms (FindLiveObjects: 1.225700 ms CreateObjectMapping: 1.798700 ms MarkObjects: 7.879100 ms  DeleteObjects: 6.163100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.176 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.26 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.353 seconds
+Domain Reload Profiling: 2530ms
+	BeginReloadAssembly (363ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (680ms)
+		LoadAssemblies (522ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (333ms)
+			TypeCache.Refresh (11ms)
 				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (202ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (879ms)
+			BuildScriptInfoCaches (297ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1353ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (683ms)
+		SetupLoadedEditorAssemblies (1063ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (171ms)
-			ProcessInitializeOnLoadAttributes (437ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6748 unused Assets / (5.0 MB). Loaded Objects now: 7449.
-Memory consumption went from 145.0 MB to 140.0 MB.
-Total: 14.015500 ms (FindLiveObjects: 1.103100 ms CreateObjectMapping: 3.052100 ms MarkObjects: 6.211300 ms  DeleteObjects: 3.646700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 119208.942762 seconds.
-  path: Assets/Scripts/HealthPickup.cs
-  artifactKey: Guid(a253f1e7f20737247ab4a3a9afb0bc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/HealthPickup.cs using Guid(a253f1e7f20737247ab4a3a9afb0bc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef0f3c3762a4bee54eea57abc2421dbf') in 0.0265496 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-78NB-9DWH-DPB6-K9N7-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 4673853360262-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-- Loaded All Assemblies, in  0.691 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.80 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.641 seconds
-Domain Reload Profiling: 1335ms
-	BeginReloadAssembly (205ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (418ms)
-		LoadAssemblies (313ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (197ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (172ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (642ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (499ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (105ms)
-			ProcessInitializeOnLoadAttributes (338ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 2.55 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6748 unused Assets / (4.7 MB). Loaded Objects now: 7454.
-Memory consumption went from 145.7 MB to 141.1 MB.
-Total: 11.861500 ms (FindLiveObjects: 0.687000 ms CreateObjectMapping: 1.461600 ms MarkObjects: 6.500600 ms  DeleteObjects: 3.210300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.872 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.73 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.691 seconds
-Domain Reload Profiling: 1565ms
-	BeginReloadAssembly (235ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (528ms)
-		LoadAssemblies (441ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (211ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (186ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (691ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (532ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (117ms)
-			ProcessInitializeOnLoadAttributes (354ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 1.64 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6748 unused Assets / (5.1 MB). Loaded Objects now: 7457.
-Memory consumption went from 145.8 MB to 140.7 MB.
-Total: 12.646700 ms (FindLiveObjects: 0.713700 ms CreateObjectMapping: 1.170700 ms MarkObjects: 7.091000 ms  DeleteObjects: 3.669500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.709 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.667 seconds
-Domain Reload Profiling: 1379ms
-	BeginReloadAssembly (190ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (447ms)
-		LoadAssemblies (325ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (212ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (188ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (667ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (518ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (107ms)
-			ProcessInitializeOnLoadAttributes (341ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (251ms)
+			ProcessInitializeOnLoadAttributes (701ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 1.79 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6748 unused Assets / (5.0 MB). Loaded Objects now: 7460.
-Memory consumption went from 145.8 MB to 140.8 MB.
-Total: 14.941700 ms (FindLiveObjects: 0.718700 ms CreateObjectMapping: 1.133600 ms MarkObjects: 9.580800 ms  DeleteObjects: 3.506900 ms)
+Unloading 6785 unused Assets / (4.5 MB). Loaded Objects now: 7506.
+Memory consumption went from 144.1 MB to 139.6 MB.
+Total: 40.938100 ms (FindLiveObjects: 1.275700 ms CreateObjectMapping: 1.549200 ms MarkObjects: 15.031500 ms  DeleteObjects: 23.074100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 411.734324 seconds.
-  path: Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Rock3.fbx
-  artifactKey: Guid(a245e4d6ee01c974da4c4f53cdab6645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Rock3.fbx using Guid(a245e4d6ee01c974da4c4f53cdab6645) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '513c8ffc0f08fc9e54fcff31fa48741e') in 0.6982342 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/3D Platformer/Models/Environment/Kenney/Raw/treeSnow.fbx
-  artifactKey: Guid(8cd4b879b4ac77b41ac18df71732f37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Kenney/Raw/treeSnow.fbx using Guid(8cd4b879b4ac77b41ac18df71732f37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efc116f50ebade6c54bfc520b5a08cd8') in 0.0301165 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/3D Platformer/Models/Environment/Kenney/Raw/rocks.fbx
-  artifactKey: Guid(e81b7f620fce3734bbe5c25700bfc49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Kenney/Raw/rocks.fbx using Guid(e81b7f620fce3734bbe5c25700bfc49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f724421ea088abd70a32261d8901e26') in 0.0116019 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Rope_Long.fbx
-  artifactKey: Guid(f6d046af1ca473a4db6d14134fe4f856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Rope_Long.fbx using Guid(f6d046af1ca473a4db6d14134fe4f856) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c67237dd55fbdf3ccd379c69d9dc296') in 0.0260542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/3D Platformer/Models/Environment/Kenney/Raw/spikes.fbx
-  artifactKey: Guid(b9fd5042fc4a2e34fb70e19ef3dd169d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Kenney/Raw/spikes.fbx using Guid(b9fd5042fc4a2e34fb70e19ef3dd169d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf5f2353f6f39ac8a1961d90b1acfe45') in 0.0171985 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/3D Platformer/Models/Environment/Kenney/Raw/tree.fbx
-  artifactKey: Guid(e23663967fbd77b40856a0874c367638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Kenney/Raw/tree.fbx using Guid(e23663967fbd77b40856a0874c367638) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdad4eec61d24bb0a546c326b8e6e1c8') in 0.0235476 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/3D Platformer/Models/Environment/Kenney/Raw/spikesLarge.fbx
-  artifactKey: Guid(cfd652537b223d846898bf6a200ee5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Kenney/Raw/spikesLarge.fbx using Guid(cfd652537b223d846898bf6a200ee5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72464af61058b93afb48bb8f635c5cc8') in 0.0175732 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/3D Platformer/Models/Player/Raw/Robot.fbx
-  artifactKey: Guid(ddc15bb3e02cfc14d9c995b980d6b225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Player/Raw/Robot.fbx using Guid(ddc15bb3e02cfc14d9c995b980d6b225) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7b45eb516c2bf6bddb4e3fc8bc6e0ed') in 0.137344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 212
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.592863 seconds.
-  path: Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Platform_BottomRight.fbx
-  artifactKey: Guid(50bb4e2325c956e499ff0943e4dd369a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Platform_BottomRight.fbx using Guid(50bb4e2325c956e499ff0943e4dd369a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '819a23324119aa386b58b5be862f3cbf') in 0.0132907 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Platform_CenterMiddle.fbx
-  artifactKey: Guid(876f2efdb0cf120448ace9e6c5fc1b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Platform_CenterMiddle.fbx using Guid(876f2efdb0cf120448ace9e6c5fc1b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '357f92639645dc22228a4f233b39c7c6') in 0.0149267 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Platform_TopRight.fbx
-  artifactKey: Guid(18c47605487c3034b87ab600e0cf42de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Platform_TopRight.fbx using Guid(18c47605487c3034b87ab600e0cf42de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af5008a3820a4a93308522c70492a648') in 0.0201549 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Platform_CenterLeft.fbx
-  artifactKey: Guid(5ebe83b51fedd6d4baf8f73128733597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Platform_CenterLeft.fbx using Guid(5ebe83b51fedd6d4baf8f73128733597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a00b92f2d91f5ec84b840584b736319') in 0.0167709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Rock1.fbx
-  artifactKey: Guid(a179a8b0cb02b8044b0f6a45b6d79faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Rock1.fbx using Guid(a179a8b0cb02b8044b0f6a45b6d79faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4aec75c756f57a6869b3c8105bb7cebd') in 0.0154753 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.176446 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Prop_Ruins_Pillar_2.fbx
-  artifactKey: Guid(89c238df488de084da771a324bbef6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Prop_Ruins_Pillar_2.fbx using Guid(89c238df488de084da771a324bbef6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6fd23c0a3c14319cbed17a1d8467fd1') in 0.0192435 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Pipe.fbx
-  artifactKey: Guid(042eeec316001f245971c25c1ab65692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Pipe.fbx using Guid(042eeec316001f245971c25c1ab65692) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '736215cef09e3c685fc23d1589bd5416') in 0.0148334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/3D Platformer/Models/Environment/Kenney/Raw/platform.fbx
-  artifactKey: Guid(641df3e8c32085843b508830cc43db09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Kenney/Raw/platform.fbx using Guid(641df3e8c32085843b508830cc43db09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87ce80cf89e2c9820ebaabf120370800') in 0.0199575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Platform_BottomLeft.fbx
-  artifactKey: Guid(4a5fe26e6caaf2948b650017e426661d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Platform_BottomLeft.fbx using Guid(4a5fe26e6caaf2948b650017e426661d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '459689260d81c4bde6beb3e85c3af3dc') in 0.0408686 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.770443 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Prop_Flower_Tulip.fbx
-  artifactKey: Guid(ee8586dd230fc3048af9d5f3c09853e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Prop_Flower_Tulip.fbx using Guid(ee8586dd230fc3048af9d5f3c09853e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2eb21952c150cb53d114f871938012af') in 0.1090722 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.448136 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Beach_Prop_Docks_Corner.fbx
-  artifactKey: Guid(699b985181b5f424ca6a94a2b1b96bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Beach_Prop_Docks_Corner.fbx using Guid(699b985181b5f424ca6a94a2b1b96bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd23acd628d678d76bb058331a35152e5') in 0.0972218 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Prop_Railway_Hill_Gentle.fbx
-  artifactKey: Guid(10f28bfae0fa9a244aa6e22a3a9ecd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Prop_Railway_Hill_Gentle.fbx using Guid(10f28bfae0fa9a244aa6e22a3a9ecd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89c1a4ac223fbaceb50d16dd9c42d3ef') in 0.0980304 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.139861 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Prop_Railway_Intersection.fbx
-  artifactKey: Guid(0857736c460064d4eb9a0fe849bc8461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Prop_Railway_Intersection.fbx using Guid(0857736c460064d4eb9a0fe849bc8461) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05d645e3cf9534628c67d9d6ca2beea0') in 0.0903294 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Prop_Railway_Curve_Large.fbx
-  artifactKey: Guid(9163a9c11458a25408c0f7a36cc81f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Prop_Railway_Curve_Large.fbx using Guid(9163a9c11458a25408c0f7a36cc81f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ba095a1371162db50cd795d3c23a89b') in 0.0893797 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Prop_Flower_Rose.fbx
-  artifactKey: Guid(c05aa4709f20382458f6fd03c617a40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Prop_Flower_Rose.fbx using Guid(c05aa4709f20382458f6fd03c617a40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41f2c6ea7cdbf429eb7b9eeaeb819986') in 0.0762052 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.194611 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Prop_Mushroom_2.fbx
-  artifactKey: Guid(a6cc0c3265b6fe14d9c5b980f14c042d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Prop_Mushroom_2.fbx using Guid(a6cc0c3265b6fe14d9c5b980f14c042d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fe992c1fa5d0e71fbdf6fa5a3d85c6e') in 0.034457 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Prop_Tree_Oak_2.fbx
-  artifactKey: Guid(48fcb378d1237e64791bf6fa8803c357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Prop_Tree_Oak_2.fbx using Guid(48fcb378d1237e64791bf6fa8803c357) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b4fccc50f1ab9493ba8daf0d4ad80e3') in 0.0385674 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph
-  artifactKey: Guid(44245ab89240f51459a5077d7145c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph using Guid(44245ab89240f51459a5077d7145c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d17ad16ec247a3ef4772fc078a358a3') in 3.7649992 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Escarpment_Terrain_Corner_Inner_1x1_Mid.fbx
-  artifactKey: Guid(7eaedcdac101cd34c98141e4a70368d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Escarpment_Terrain_Corner_Inner_1x1_Mid.fbx using Guid(7eaedcdac101cd34c98141e4a70368d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b85ea9c6315d9f3b2cc478eff8a0528e') in 0.0211652 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 15674.560192 seconds.
+  path: Assets/3D Platformer/Audio/SFX/Boss_Death_Shout.wav
+  artifactKey: Guid(e63e1d3d1abc110438e772abc74516ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Platformer/Audio/SFX/Boss_Death_Shout.wav using Guid(e63e1d3d1abc110438e772abc74516ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'caf8df17d5694b61c0420c78a088630e') in 0.2112018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000044 seconds.
-  path: Assets/3D Platformer/Models/Environment/Kenney/Raw/blockSnowSlopeHalf.fbx
-  artifactKey: Guid(5a4f88f7699f71c408ead32c28a539db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Kenney/Raw/blockSnowSlopeHalf.fbx using Guid(5a4f88f7699f71c408ead32c28a539db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d53dbe54a70b4c4246a5314dd876fc3') in 0.0273351 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  path: Assets/3D Platformer/Audio/SFX/Player_Hurt.wav
+  artifactKey: Guid(8eb447d4e614c4f4c912ae79b67d33d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Platformer/Audio/SFX/Player_Hurt.wav using Guid(8eb447d4e614c4f4c912ae79b67d33d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fe6ec164364462c6bdbb2ec34552735') in 0.0219461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Escarpment_Terrain_Corner_Outer_3x3_Top.fbx
-  artifactKey: Guid(0bf0351313e2cd749a9720e4bd18689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Escarpment_Terrain_Corner_Outer_3x3_Top.fbx using Guid(0bf0351313e2cd749a9720e4bd18689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3f269d635206bd4efac172881d38789') in 0.0288735 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Escarpment_Terrain_Corner_Outer_1x1_Base.fbx
-  artifactKey: Guid(3cf6978d68d28b344a2c23aa5bcdcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Escarpment_Terrain_Corner_Outer_1x1_Base.fbx using Guid(3cf6978d68d28b344a2c23aa5bcdcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff47b2c5b896f224a97701544789a7c7') in 0.0243425 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000048 seconds.
+  path: Assets/3D Platformer/Audio/SFX/Boss_Smash.wav
+  artifactKey: Guid(7dcdba50bb2911d4e946c253756b3189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Platformer/Audio/SFX/Boss_Smash.wav using Guid(7dcdba50bb2911d4e946c253756b3189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50e491c1b7348d2f9ea5d01f4670c105') in 0.0180541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf
-  artifactKey: Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf using Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2d0fdc5e367da3b4190db9b0fe2a6e2') in 0.0263263 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  path: Assets/3D Platformer/Audio/SFX/Heart Pickup.aif
+  artifactKey: Guid(4f5b46711d720b54daf8a1a259d6004a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Platformer/Audio/SFX/Heart Pickup.aif using Guid(4f5b46711d720b54daf8a1a259d6004a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac38f3b541bc19613ec7c745c83a4be9') in 0.0290346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/3D Platformer/Models/Environment/Kenney/Raw/block.fbx
-  artifactKey: Guid(1c695e1e60c71cc4aa4d5d67f44eec0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Kenney/Raw/block.fbx using Guid(1c695e1e60c71cc4aa4d5d67f44eec0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bf01c7f6c6b78a25f89339c43770583') in 0.0219659 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf
-  artifactKey: Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf using Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7d28867e8a45e02210c3a74e5bad816') in 0.0104617 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/3D Platformer/Models/Environment/Kenney/Raw/cube.fbx
-  artifactKey: Guid(8c903777ca35f1646a0014e184550e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Kenney/Raw/cube.fbx using Guid(8c903777ca35f1646a0014e184550e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b59028895a934b7692e4a4a8c3c4e577') in 0.0205337 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph
-  artifactKey: Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph using Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a63ae111a9c9722829aa8756414d0795') in 4.1737195 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/3D Platformer/Models/Environment/Kenney/Raw/blockLevel.fbx
-  artifactKey: Guid(baf38b1a6178edc4590a1ed59fda9772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Kenney/Raw/blockLevel.fbx using Guid(baf38b1a6178edc4590a1ed59fda9772) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1099fd6292226b5afcf4f1751fd23445') in 0.0222274 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Shared_Prop_Boulder_5.fbx
-  artifactKey: Guid(97dc7dbd5e28c75409934bcde750f149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Shared_Prop_Boulder_5.fbx using Guid(97dc7dbd5e28c75409934bcde750f149) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '754a38f6510d37ce4e10ea38cb34e624') in 0.0230056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/3D Platformer/Models/Environment/Kenney/Raw/blockSnowEnd.fbx
-  artifactKey: Guid(99ffa094ef54aa741a19726dc39ace3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Kenney/Raw/blockSnowEnd.fbx using Guid(99ffa094ef54aa741a19726dc39ace3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81ed6ce131e8aa17026bad8b3eca5a59') in 0.0229558 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf
-  artifactKey: Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf using Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71e54db942bf60136721f644413abb49') in 0.0112898 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Terrain_Path_Hill_Sharp_Steps_Center.fbx
-  artifactKey: Guid(ae25ed91b7576c846ae6f1c12eba3b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Terrain_Path_Hill_Sharp_Steps_Center.fbx using Guid(ae25ed91b7576c846ae6f1c12eba3b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b73474449ba8a2bebef7d134c755d21c') in 0.0307533 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Shared_Prop_Boulder_1.fbx
-  artifactKey: Guid(780763d0781871c4dbe5493b5940b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Shared_Prop_Boulder_1.fbx using Guid(780763d0781871c4dbe5493b5940b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e97da50116315b7fd0e2cbada87ca3fb') in 0.0232863 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Prop_Stepping_Stones_2.fbx
-  artifactKey: Guid(572932cb0d07e244c8a204477737c367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Prop_Stepping_Stones_2.fbx using Guid(572932cb0d07e244c8a204477737c367) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b20e2323278cf1840c77f4dec9a3165') in 0.0223507 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Grass2.fbx
-  artifactKey: Guid(9ca205d627446154a820a32289dc5b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/Quaternius Platformer Pack/Raw/Grass2.fbx using Guid(9ca205d627446154a820a32289dc5b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65c1bb18f3903219e0bb490c4cae737d') in 0.0191036 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Escarpment_Terrain_Corner_Inner_3x3_Mid.fbx
-  artifactKey: Guid(cfd0d2a74a4b1b04fbae0628bf1e8c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Escarpment_Terrain_Corner_Inner_3x3_Mid.fbx using Guid(cfd0d2a74a4b1b04fbae0628bf1e8c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbb8e5628641999e464b5ddebb0e08fd') in 0.0225276 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Prop_Grass_Clump_2.fbx
-  artifactKey: Guid(a2fdb4d965562cd4db97cbc7167847d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Prop_Grass_Clump_2.fbx using Guid(a2fdb4d965562cd4db97cbc7167847d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a7bf05a3c4b1e174704a240de0b11de') in 0.046254 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Terrain_Path_Hill_Sharp_Steps_Side.fbx
-  artifactKey: Guid(a474e640dc902c54fa8dcc26548e83f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Terrain_Path_Hill_Sharp_Steps_Side.fbx using Guid(a474e640dc902c54fa8dcc26548e83f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '856568dc0e178cfab97547b1c1de16b0') in 0.0392674 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Escarpment_Terrain_Corner_Outer_2x2_Mid.fbx
-  artifactKey: Guid(193763cacffd78141ae1f4c19f666778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Escarpment_Terrain_Corner_Outer_2x2_Mid.fbx using Guid(193763cacffd78141ae1f4c19f666778) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01c0470200ff66ca9ba9b8245feae720') in 0.0210726 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Terrain_Hill_Transition_Gentle_Sharp_Centered.fbx
-  artifactKey: Guid(884e27c3cbf3e664182a75ed3ff22cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Terrain_Hill_Transition_Gentle_Sharp_Centered.fbx using Guid(884e27c3cbf3e664182a75ed3ff22cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '557dc2e3f99b06760a92637c42b6e353') in 0.0205154 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Terrain_Path_Side.fbx
-  artifactKey: Guid(c206af108237f8344a84b057a52b9614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Terrain_Path_Side.fbx using Guid(c206af108237f8344a84b057a52b9614) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5cdda33b47017e9cb70f344ef784cf9') in 0.0256966 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Terrain_Path_Hill_Sharp_Plain_Center.fbx
-  artifactKey: Guid(871fe24c7fe9118459ac1671dc98619f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Hilly_Terrain_Path_Hill_Sharp_Plain_Center.fbx using Guid(871fe24c7fe9118459ac1671dc98619f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46cb61cac1bae0d6a8ab419db6c8d9be') in 0.0204288 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Prop_Hanging_Cables_1.fbx
-  artifactKey: Guid(c3cf746505601254cb59046c727f9c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Prop_Hanging_Cables_1.fbx using Guid(c3cf746505601254cb59046c727f9c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5165723d741dd44a70f4ddd7f427e7a3') in 0.0293456 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveMasked.shadergraph
-  artifactKey: Guid(80aa867ac363ac043847b06ad71604cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveMasked.shadergraph using Guid(80aa867ac363ac043847b06ad71604cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84e56d3198445e903b4fcaa66e72dc7b') in 3.6134912 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 120.776663 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Terrain_Hill_Corner_Outer_2x2.fbx
-  artifactKey: Guid(dcbef8f80f9dbad48ab5dd846bddf694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Terrain_Hill_Corner_Outer_2x2.fbx using Guid(dcbef8f80f9dbad48ab5dd846bddf694) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73f31c01df190489189d4cfdca9adb72') in 0.0259495 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Mountain_2.fbx
-  artifactKey: Guid(c6f8456761511b64cbdce1cdef5eb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Mountain_2.fbx using Guid(c6f8456761511b64cbdce1cdef5eb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9011a42a3fdbcd395ebd61647cbd6a87') in 0.020857 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Prop_Stalagmite_Connected_Top.fbx
-  artifactKey: Guid(8e82b097a01dae249a6ec10b5ce65a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Prop_Stalagmite_Connected_Top.fbx using Guid(8e82b097a01dae249a6ec10b5ce65a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80fa1b0b73d03633dd0183e1434201aa') in 0.0210127 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Mountain_3.fbx
-  artifactKey: Guid(c4635732e7b663144babf6685fe1ec47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Mountain_3.fbx using Guid(c4635732e7b663144babf6685fe1ec47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26740acbe1a73373c7a8c297e627e999') in 0.0258818 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.897805 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Terrain_Corner_Inner_1x1_Base.fbx
-  artifactKey: Guid(2a0022491eca19844b566a0276525020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Terrain_Corner_Inner_1x1_Base.fbx using Guid(2a0022491eca19844b566a0276525020) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac30215befd7a55b0026c33318233c06') in 0.0248342 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Terrain_Hill_Corner_Outer_4x4.fbx
-  artifactKey: Guid(6065280c40eef6f40886987f25edb398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Terrain_Hill_Corner_Outer_4x4.fbx using Guid(6065280c40eef6f40886987f25edb398) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36f216e191f9d9eb89268e206866d024') in 0.022051 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Cliff_Terrain_Entrance_Flat_Base.fbx
-  artifactKey: Guid(0861be83d16fe3c49a35b8cc3b6937ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Cliff_Terrain_Entrance_Flat_Base.fbx using Guid(0861be83d16fe3c49a35b8cc3b6937ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '950b3e3dfa5b1e91977ff6117afdf22b') in 0.0224024 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Cliff_Terrain_Entrance_Round_Base.fbx
-  artifactKey: Guid(341b9f1e126e5704087287a8c5218c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Platformer/Models/Environment/modular_terrain_collection/Raw/Cave_Cliff_Terrain_Entrance_Round_Base.fbx using Guid(341b9f1e126e5704087287a8c5218c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '743dc770b701751f3badf23bd0ecf57d') in 0.0196328 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

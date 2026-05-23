@@ -6,6 +6,8 @@ public class HealthPickup : MonoBehaviour
     public int healAmount;
     public bool isFullHeal;
 
+    public GameObject healEffect;
+
     public void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
@@ -16,7 +18,11 @@ public class HealthPickup : MonoBehaviour
             }else{
                 HealthManager.instance.AddHealth(healAmount);
             }
+
             Destroy(gameObject);
+
+            Instantiate(healEffect, PlayerController.instance.transform.position + new Vector3(0f, 1f, 0f), PlayerController.instance.transform.rotation);
+
         }
     }
 }

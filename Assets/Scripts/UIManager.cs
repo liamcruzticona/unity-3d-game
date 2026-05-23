@@ -9,6 +9,13 @@ public class UIManager : MonoBehaviour
     public bool fadeToBlack;
     public bool fadeFromBlack;
 
+    public Text healthText;
+    public Image healthImage;
+
+    public Text coinText;
+
+    public GameObject pauseScreen;
+
     private void Awake()
     {
         instance = this;
@@ -35,5 +42,25 @@ public class UIManager : MonoBehaviour
                 fadeFromBlack = false;
             }
         }   
+    }
+
+    public void Resume(){
+        GameManager.instance.PauseUnpause();
+    }
+
+    public void OpenOptions(){
+        
+    }
+
+    public void CloseOptions(){
+        
+    }
+
+    public void LevelSelect(){
+        
+    }
+
+    public void MainMenu(){
+        
     }
 }
